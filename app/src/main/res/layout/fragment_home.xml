@@ -1,0 +1,407 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".ui.home.HomeFragment">
+
+    <Space
+        android:id="@+id/espacio"
+        android:layout_width="10dp"
+        android:layout_height="10dp"
+        android:layout_above="@id/cuadricula" />
+
+    <LinearLayout
+        android:id="@+id/cuadricula"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerInParent="true"
+        android:orientation="vertical">
+
+        <LinearLayout
+            android:id="@+id/fila1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <ImageButton
+                android:id="@+id/btn0"
+                android:layout_width="70dp"
+                android:layout_height="70dp"
+                android:layout_alignParentLeft="true"
+                android:adjustViewBounds="true"
+                android:background="@color/transparent"
+                android:maxWidth="70dp"
+                android:maxHeight="70dp"
+                android:outlineProvider="background"
+                android:scaleType="fitCenter"
+                app:srcCompat="@drawable/uno" />
+
+            <Space
+                android:layout_width="5dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1" />
+
+            <ImageButton
+                android:id="@+id/btn1"
+                android:layout_width="70dp"
+                android:layout_height="70dp"
+                android:layout_alignParentLeft="true"
+                android:adjustViewBounds="true"
+                android:background="@color/transparent"
+                android:maxWidth="70dp"
+                android:maxHeight="70dp"
+                android:scaleType="fitCenter"
+                app:srcCompat="@drawable/dos" />
+
+            <Space
+                android:layout_width="5dp"
+                android:layout_height="5dp"
+                android:layout_weight="1" />
+
+            <ImageButton
+                android:id="@+id/btn2"
+                android:layout_width="70dp"
+                android:layout_height="wrap_content"
+                android:layout_alignParentLeft="true"
+                android:adjustViewBounds="true"
+                android:background="@color/transparent"
+                android:maxWidth="70dp"
+                android:maxHeight="70dp"
+                android:scaleType="fitCenter"
+                app:srcCompat="@drawable/tres" />
+
+            <Space
+                android:layout_width="5dp"
+                android:layout_height="5dp"
+                android:layout_weight="1" />
+
+            <ImageButton
+                android:id="@+id/btn3"
+                android:layout_width="70dp"
+                android:layout_height="70dp"
+                android:layout_alignParentLeft="true"
+                android:adjustViewBounds="true"
+                android:background="@color/transparent"
+                android:maxWidth="70dp"
+                android:maxHeight="70dp"
+                android:scaleType="fitCenter"
+                app:srcCompat="@drawable/cuatro" />
+        </LinearLayout>
+
+        <Space
+            android:layout_width="5dp"
+            android:layout_height="5dp" />
+
+        <LinearLayout
+            android:id="@+id/fila2"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="horizontal">
+
+            <ImageButton
+                android:id="@+id/btn4"
+                android:layout_width="70dp"
+                android:layout_height="70dp"
+                android:layout_alignParentLeft="true"
+                android:adjustViewBounds="true"
+                android:background="@color/transparent"
+                android:maxWidth="70dp"
+                android:maxHeight="70dp"
+                android:scaleType="fitCenter"
+                app:srcCompat="@drawable/cinco" />
+
+            <Space
+                android:layout_width="5dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1" />
+
+            <ImageButton
+                android:id="@+id/btn5"
+                android:layout_width="70dp"
+                android:layout_height="wrap_content"
+                android:layout_alignParentLeft="true"
+                android:adjustViewBounds="true"
+                android:background="@color/transparent"
+                android:maxWidth="70dp"
+                android:maxHeight="70dp"
+                android:scaleType="fitCenter"
+                app:srcCompat="@drawable/seis" />
+
+            <Space
+                android:layout_width="5dp"
+                android:layout_height="5dp"
+                android:layout_weight="1" />
+
+            <ImageButton
+                android:id="@+id/btn6"
+                android:layout_width="70dp"
+                android:layout_height="70dp"
+                android:layout_alignParentLeft="true"
+                android:adjustViewBounds="true"
+                android:background="@color/transparent"
+                android:maxWidth="70dp"
+                android:maxHeight="70dp"
+                android:scaleType="fitCenter"
+                app:srcCompat="@drawable/siete" />
+
+            <Space
+                android:layout_width="5dp"
+                android:layout_height="5dp"
+                android:layout_weight="1" />
+
+            <ImageButton
+                android:id="@+id/btn7"
+                android:layout_width="70dp"
+                android:layout_height="70dp"
+                android:layout_alignParentLeft="true"
+                android:adjustViewBounds="true"
+                android:background="@color/transparent"
+                android:maxWidth="70dp"
+                android:maxHeight="70dp"
+                android:scaleType="fitCenter"
+                app:srcCompat="@drawable/ocho" />
+
+        </LinearLayout>
+
+        <Space
+            android:layout_width="match_parent"
+            android:layout_height="5dp" />
+
+        <LinearLayout
+            android:id="@+id/fila3"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="horizontal">
+
+            <ImageButton
+                android:id="@+id/btn8"
+                android:layout_width="70dp"
+                android:layout_height="70dp"
+                android:layout_alignParentLeft="true"
+                android:adjustViewBounds="true"
+                android:background="@color/transparent"
+                android:maxWidth="70dp"
+                android:maxHeight="70dp"
+                android:scaleType="fitCenter"
+                app:srcCompat="@drawable/nueve" />
+
+            <Space
+                android:layout_width="5dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1" />
+
+            <ImageButton
+                android:id="@+id/btn9"
+                android:layout_width="70dp"
+                android:layout_height="wrap_content"
+                android:layout_alignParentLeft="true"
+                android:adjustViewBounds="true"
+                android:background="@color/transparent"
+                android:maxWidth="70dp"
+                android:maxHeight="70dp"
+                android:scaleType="fitCenter"
+                app:srcCompat="@drawable/diez" />
+
+            <Space
+                android:layout_width="5dp"
+                android:layout_height="5dp"
+                android:layout_weight="1" />
+
+            <ImageButton
+                android:id="@+id/btn10"
+                android:layout_width="70dp"
+                android:layout_height="wrap_content"
+                android:layout_alignParentLeft="true"
+                android:adjustViewBounds="true"
+                android:background="@color/transparent"
+                android:maxWidth="70dp"
+                android:maxHeight="70dp"
+                android:scaleType="fitCenter"
+                app:srcCompat="@drawable/once" />
+
+            <Space
+                android:layout_width="5dp"
+                android:layout_height="5dp"
+                android:layout_weight="1" />
+
+            <ImageButton
+                android:id="@+id/btn11"
+                android:layout_width="70dp"
+                android:layout_height="70dp"
+                android:layout_alignParentLeft="true"
+                android:adjustViewBounds="true"
+                android:background="@color/transparent"
+                android:maxWidth="70dp"
+                android:maxHeight="70dp"
+                android:scaleType="fitCenter"
+                app:srcCompat="@drawable/doce" />
+        </LinearLayout>
+
+        <Space
+            android:layout_width="match_parent"
+            android:layout_height="5dp" />
+
+        <LinearLayout
+            android:id="@+id/fila4"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="horizontal">
+
+            <ImageButton
+                android:id="@+id/btn12"
+                android:layout_width="70dp"
+                android:layout_height="wrap_content"
+                android:layout_alignParentLeft="true"
+                android:adjustViewBounds="true"
+                android:background="@color/transparent"
+                android:maxWidth="70dp"
+                android:maxHeight="70dp"
+                android:scaleType="fitCenter"
+                app:srcCompat="@drawable/trece" />
+
+            <Space
+                android:layout_width="5dp"
+                android:layout_height="5dp"
+                android:layout_weight="1" />
+
+            <ImageButton
+                android:id="@+id/btn13"
+                android:layout_width="70dp"
+                android:layout_height="wrap_content"
+                android:layout_alignParentLeft="true"
+                android:adjustViewBounds="true"
+                android:background="@color/transparent"
+                android:maxWidth="70dp"
+                android:maxHeight="70dp"
+                android:scaleType="fitCenter"
+
+                app:srcCompat="@drawable/catorc" />
+
+            <Space
+                android:layout_width="5dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1" />
+
+            <ImageButton
+                android:id="@+id/btn14"
+                android:layout_width="70dp"
+                android:layout_height="wrap_content"
+                android:layout_alignParentLeft="true"
+                android:adjustViewBounds="true"
+                android:background="@color/transparent"
+                android:maxWidth="70dp"
+                android:maxHeight="70dp"
+                android:scaleType="fitCenter"
+                app:srcCompat="@drawable/quince" />
+
+            <Space
+                android:layout_width="5dp"
+                android:layout_height="5dp"
+                android:layout_weight="1" />
+
+            <ImageButton
+                android:id="@+id/btn15"
+                android:layout_width="70dp"
+                android:layout_height="70dp"
+                android:layout_alignParentLeft="true"
+                android:adjustViewBounds="true"
+                android:background="@color/transparent"
+                android:maxWidth="70dp"
+                android:maxHeight="70dp"
+                android:scaleType="fitCenter"
+                app:srcCompat="@drawable/dseis" />
+
+        </LinearLayout>
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/botonera"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_above="@id/espacio"
+        android:layout_centerHorizontal="true"
+        android:orientation="horizontal">
+
+        <ImageButton
+            android:id="@+id/orden"
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:background="@color/transparent"
+            android:scaleType="fitCenter"
+            android:src="@drawable/ordenar"
+            android:text="ordenar" />
+
+        <Space
+            android:layout_width="5dp"
+            android:layout_height="5dp"
+            android:layout_weight="1" />
+
+        <ImageButton
+            android:id="@+id/atras"
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:background="@color/transparent"
+            android:scaleType="fitCenter"
+            android:src="@drawable/back"
+            android:text="back " />
+
+        <Space
+            android:layout_width="5dp"
+            android:layout_height="5dp"
+            android:layout_weight="1" />
+
+        <ImageButton
+            android:id="@+id/resetear"
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:background="@color/transparent"
+            android:scaleType="fitCenter"
+            android:src="@drawable/reset"
+            android:text="RESET " />
+
+
+    </LinearLayout>
+
+    <TextView
+        android:id="@+id/movidasTotal"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/cuadricula"
+        android:layout_centerHorizontal="true"
+        android:orientation="horizontal"
+        android:text="movidas!" />
+    <Chronometer
+        android:id="@+id/tiempito"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_below="@id/movidasTotal"
+        android:layout_centerHorizontal="true"
+        android:textSize="40sp" />
+
+    <ImageButton
+        android:id="@+id/original"
+        android:layout_width="wrap_content"
+        android:layout_height="50dp"
+        android:layout_below="@id/tiempito"
+        android:layout_centerHorizontal="true"
+        android:background="@color/transparent"
+        android:orientation="horizontal"
+        android:scaleType="fitCenter"
+        android:src="@drawable/imagenoriginal" />
+
+    <ImageView
+        android:id="@+id/imageView3"
+        android:layout_width="match_parent"
+        android:layout_height="100dp"
+        android:layout_above="@id/botonera"
+        android:layout_centerHorizontal="true"
+        android:maxWidth="50dp"
+        android:maxHeight="0dp"
+        android:scaleType="fitCenter"
+        android:src="@drawable/toroide_neon" />
+
+
+</RelativeLayout>

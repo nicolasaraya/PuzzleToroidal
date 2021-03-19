@@ -1,0 +1,121 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".ui.gallery.GalleryFragment">
+
+
+    <Space
+        android:id="@+id/espacioss"
+        android:layout_width="match_parent"
+        android:layout_height="30dp" />
+
+    <ImageView
+        android:id="@+id/imagengallery"
+        android:layout_width="match_parent"
+        android:layout_height="300dp"
+        android:layout_below="@id/espacioss"
+        android:layout_centerHorizontal="true"
+        android:scaleType="fitCenter"
+        android:src="@drawable/gallery_back" />
+
+    <Space
+        android:id="@+id/espacio"
+        android:layout_width="wrap_content"
+        android:layout_height="100dp"
+        android:layout_centerVertical="true" />
+
+    <LinearLayout
+        android:id="@+id/botonera1"
+        android:layout_width="match_parent"
+        android:layout_height="48dp"
+        android:layout_below="@id/espacio"
+        android:layout_centerHorizontal="true"
+        android:orientation="horizontal">
+
+        <Space
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1" />
+
+        <ImageButton
+            android:id="@+id/camerabutton"
+            android:layout_width="91dp"
+            android:layout_height="match_parent"
+            android:background="@color/transparent"
+            android:scaleType="fitCenter"
+            android:src="@drawable/camera_icon"
+            android:text="Button" />
+
+        <Space
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1" />
+
+        <ImageButton
+            android:id="@+id/selector"
+            android:layout_width="91dp"
+            android:layout_height="match_parent"
+            android:background="@color/transparent"
+            android:scaleType="centerInside"
+            android:src="@drawable/gallery_icon"
+            android:text="Elegir Imagen" />
+
+        <Space
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1" />
+
+    </LinearLayout>
+
+    <Space
+        android:id="@+id/espacio2"
+        android:layout_width="15dp"
+        android:layout_height="15dp"
+        android:layout_below="@id/botonera1"
+        android:layout_centerHorizontal="true" />
+
+    <ImageButton
+        android:id="@+id/arco"
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:layout_below="@id/espacio2"
+        android:layout_centerHorizontal="true"
+        android:background="@color/transparent"
+        android:scaleType="fitCenter"
+        android:src="@drawable/arco" />
+
+    <Space
+        android:id="@+id/espacioderecha"
+        android:layout_width="5dp"
+        android:layout_height="5dp"
+        android:layout_toRightOf="@id/arco" />
+
+    <ImageButton
+        android:id="@+id/pastos"
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:layout_below="@id/espacio2"
+        android:layout_toRightOf="@id/espacioderecha"
+        android:src="@drawable/pastos" />
+
+    <Space
+        android:id="@+id/espacioizquierda"
+        android:layout_width="5dp"
+        android:layout_height="5dp"
+        android:layout_toLeftOf="@id/arco" />
+
+    <ImageButton
+        android:id="@+id/plaza"
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:layout_below="@id/espacio2"
+        android:layout_toLeftOf="@id/espacioizquierda"
+        android:background="@color/transparent"
+        android:scaleType="fitCenter"
+        android:src="@drawable/plaza" />
+
+</RelativeLayout>

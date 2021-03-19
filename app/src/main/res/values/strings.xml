@@ -1,0 +1,25 @@
+<resources>
+    <string name="app_name">PuzzleToroidal</string>
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+    <string name="nav_header_title">Puzzle</string>
+    <string name="nav_header_subtitle">Toroidal</string>
+    <string name="nav_header_desc">Navigation header</string>
+    <string name="action_settings">Settings</string>
+
+    <string name="menu_home">Puzzle Toroidal</string>
+    <string name="menu_gallery">Galería</string>
+    <string name="menu_instrucciones">Instrucciones</string>
+    <string name="menu_creditos">Creditos</string>
+
+    <string name="bool">false</string>
+
+    <string name="instrucciones">El juego consiste en un puzzle de 16 piezas, inicialmente desordenadas. El objetivo es ordenar todas las piezas hasta llegar a la posición final, con la imagen completamente ordenada.</string>
+    <string name="comoJugar">Solamente es posible mover las piezas por filas o columnas. Hay 4 filas y 4 columnas que se moverán de forma horizontal y vertical respectivamente. Para hacer esto se debe arrastrar la fila o columna en la dirección deseada.</string>
+    <string name="botones">Con el botón de BACK es posible deshacer la jugada anterior, hasta que ya no queden más jugadas para deshacer. Con el botón de RESET se reinicia el puzzle en posiciones aleatorias. Con el botón de ORDENAR se ordenará el puzzle en la posición correcta. Finalmente, con el botón de VER IMAGEN ORIGINAL es posible ver la imagen completamente ordenada, sin alterar el puzzle actual.</string>
+
+    <string name="home_second">Home Second</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+</resources>
